@@ -163,7 +163,7 @@ body {
 
 .header_top .contact_link-container a i {
   font-size: 20px;
-  color: #32523A;
+  color: #fff;
   margin-right: 5px;
 }
 
@@ -474,7 +474,18 @@ a:focus {
   text-transform: uppercase;
 }
 
-.service_section .box .detail-box a {
+.service_button {
+  display: inline-block;
+  padding: 10px 35px;
+  background-color: #32523A;
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+}
+.service_button:hover {
+  background-color: transparent;
+  border-color: #32523A;
   color: #32523A;
 }
 
@@ -954,6 +965,11 @@ details>summary {
 }
 
 /*googlelink*/
+.google_container {
+  margin-top: 1rem;
+  justify-content: center;
+  text-align: center;
+}
 .googlelink {
   color: #000;
 }
@@ -1050,4 +1066,12 @@ details>summary {
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+.testimonial_container {
+  justify-content: center;
+  text-align: center;
+}
+.testimonial_h5 {
+margin-top: 1rem;
 }
